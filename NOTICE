@@ -1,0 +1,87 @@
+CC — open-source projects it is built on
+
+CC would not exist without the projects below. Thank you to their authors.
+
+
+1. Cockpit Tools
+   https://github.com/jlcodes99/cockpit-tools
+   Author: jlcodes
+   License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+   CC started from Cockpit Tools 1.2.2 (a local build, 1.2.2-local.20260930) and
+   keeps its Codex features: account management, the local API service, wake-up
+   tasks, multiple app instances, session management and model providers. CC changed them: the other platforms
+   were removed, the interface was redesigned, and Claude features were added.
+   Cockpit Tools in turn credits other projects in its README, among them
+   CLIProxyAPI (below) and CC Switch (https://github.com/farion1231/cc-switch),
+   whose provider presets it drew on.
+
+
+2. CC Same
+   https://github.com/songkeys/cc-same
+   Author: Songkeys
+   License: MIT (text below; also in crates/cc-same-core/LICENSE)
+
+   CC's Claude Desktop session sync engine (crates/cc-same-core) is CC Same's,
+   taken at version 0.1.13. CC changed it to run its own background agent and
+   log, to share an installed CC Same's data folder until the user lets CC take
+   over syncing and then keep its own copy, and to work alongside CC Same
+   without the two syncing at the same time. Changes are marked "CC:" in the
+   source.
+
+
+3. CLIProxyAPI
+   https://github.com/router-for-me/CLIProxyAPI
+   Authors: Luis Pater, Router-For.ME
+   License: MIT (text below; also in sidecars/cockpit-cliproxy/cdk/CLIProxyAPI/LICENSE)
+
+   The local API proxy bundled with CC (cc-proxy), by way of Cockpit Tools.
+
+
+-------------------------------------------------------------------------------
+CC Same — MIT License
+
+Copyright (c) 2026 Songkeys
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+-------------------------------------------------------------------------------
+CLIProxyAPI — MIT License
+
+Copyright (c) 2025-2005.9 Luis Pater
+Copyright (c) 2025.9-present Router-For.ME
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

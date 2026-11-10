@@ -1,0 +1,16 @@
+CC
+Copyright (c) 2026 Zhongfei Liu
+Based on Cockpit Tools by jlcodes (https://github.com/jlcodes99/cockpit-tools)
+
+CC is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License (CC BY-NC-SA 4.0), the license of Cockpit Tools, which CC adapts:
+
+  Summary:   https://creativecommons.org/licenses/by-nc-sa/4.0/
+  Full text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+You may use, share and adapt CC for non-commercial purposes, giving credit and sharing
+your adaptations under the same license. CC is provided as is, without warranties.
+
+Some parts of CC come from other projects under their own licenses (CC Same's sync
+engine and CLIProxyAPI, both MIT). See NOTICE for what CC uses from each project,
+what was changed, and their license texts.
